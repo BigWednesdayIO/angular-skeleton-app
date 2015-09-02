@@ -75,4 +75,4 @@ gulp.task('watch', function() {
 	gulp.watch('app/{index,views/*,assets/partials/*}.html', ['reload']);
 });
 
-gulp.task('default', ['serve', 'watch']);
+gulp.task('default', ['build', 'serve', 'watch']);
